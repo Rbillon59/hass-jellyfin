@@ -1,0 +1,29 @@
+{
+  "name": "Hass jellyfin",
+  "version": "0.0.1",
+  "slug": "hass-jellyfin",
+  "description": "Self host your jellyfin instance",
+  "arch": [
+    "amd64"
+  ],
+  "startup": "application",
+  "boot": "auto",
+  "icon": "ico.png",
+  "logo": "ico.png",
+  "webui": "[PROTO:http]://[HOST]:[PORT:8096]/",
+  "map": [
+    "media:rw",
+    "share:rw"
+  ],
+  "apparmor": true,
+  "ports": {
+    "8096/tcp": 8096
+  },
+  "ports_description": {
+    "5678/tcp": "Jellyfin instance"
+  },
+  "options": {
+  },
+  "schema": {
+  }
+}
