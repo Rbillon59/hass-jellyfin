@@ -1,6 +1,6 @@
 {
   "name": "Hass jellyfin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "slug": "hass-jellyfin",
   "description": "Self host your jellyfin instance",
   "arch": [
